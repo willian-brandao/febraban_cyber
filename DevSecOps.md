@@ -88,6 +88,48 @@ Principais testes automatizados:
 
 Segurança contínua: cada commit é analisado.
 
+# Ferramentas DevSecOps
+
+SAST: 
+* CodeQL, SonarQube, Checkmarx, Semgrep.
+
+SCA:
+* Dependabot, Snyk, OWASP Dependency-Check, Black Duck.
+
+DAST:
+* ZAP, Burp Suite, StackHawk, Caido.
+
+IaC Scanning:
+* Checkov, KICS, Terraform Validator
+
+Containers:
+* Trivy, Clair, Grype (Anchore)
+
+CI/CD
+* Github Actions, GitLab CI, Jenkins com plugins de segurança.
+
+# Práticas Recomendadas
+
+* "Shift-Left" + "Shift-right": testar antes e monitorar depois.
+* Cultura de segurança compartilhada entre times.
+* Treinamentos contínuos para desenvolvedores.
+* Uso mínimo de privilégios e boas práticas de identidade.
+* Gestão de secrets com cofre seguro. ex(Vault, AWS Secrets Manager).
+* Monitoramento e resposta a incidentes integrados.
+* Adoção de frameworks como OWASP SAMM e NIST SSDF.
+
+# Benefícios do DevSecOps
+
+* Redução de riscos e vulnrabilidades.
+* Menor custo para corrigir falhas.
+* Releases mais rápidas e seguras.
+* Maior colaboração entre equipes.
+* Conformidade com requisitos regulatórios.
+* Mais confiança do cliente e da organização.
+* DevSecOps não é apenas uma ferramentas é uma cultura.
+* Segurança deve acompanhar toda a jornada do software.
+* Automação e colaboração são essenciais.
+* Integrar segurança cedo em aplicações mais seguras e equipes mais eficientes.
 
 
 
